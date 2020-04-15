@@ -13,5 +13,4 @@ def use_collect(sentence)
   sentence_array.collect do |word|
     new_sentence << word.reverse
   end
-  new_sentence.join(" ")
 end
